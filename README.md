@@ -58,3 +58,8 @@ python app.py
     ngrok creates a secure tunnel from a public URL to your local machine.
     This is essential for receiving webhooks from GitHub because your local server is normally not accessible from the internet.
     (For proper use please follow documentation)
+
+    Run ngrok to expose the URL
+    ```bash
+    ngrok http 5000
+    ```
