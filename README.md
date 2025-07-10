@@ -1,4 +1,4 @@
-# 📡 GitHub Webhook Event Processor
+# GitHub Webhook Event Processor
 
 A **Flask-based backend** that listens for GitHub webhook events (push, pull requests, merges), saves them to MongoDB Atlas, and exposes an API to retrieve them for display in a frontend dashboard.
 
